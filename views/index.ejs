@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src='/javascripts/index.js' type='text/javascript' ></script>
+  </head>
+  <body>
+	<div data-role="page" id="page1">
+        <div data-theme="a" data-role="header" data-position="fixed">
+            <h3>
+                Twitter Stock Dashboard
+            </h3>
+        </div>
+		<div data-role="content">
+			<h2>
+				Welcome to Twitter Stock Dashboard!!!
+			</h2>
+			<a href="http://127.0.0.1:3000/sessions/connect" rel="external"><img src="https://dev.twitter.com/sites/default/files/images_documentation/sign-in-with-twitter-gray.png"></a>
+        </div>
+		<div data-role="footer" data-theme="a" data-position="fixed">
+			<h3>
+                Admios Javascript test
+            </h3>
+		</div>
+    </div>   
+	<style>
+		.ui-header .ui-title, .ui-footer .ui-title {
+			margin-right: 0 !important; margin-left: 0 !important;
+		}
+	</style>
+  </body>
+</html>
